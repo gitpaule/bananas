@@ -17,16 +17,16 @@ var onLocationFound = function(e) {
 	var boxLatLong3 = L.latLng(e.latlng.lat, e.latlng.lng - 0.0004);
 
 	L.marker(boxLatLong1,{
-		icon: L.icon({iconUrl:"/images/box.jpg"})
+		icon: L.icon({iconUrl:"images/box.jpg"})
 	}).addTo(map);
 					
 	
 	L.marker(boxLatLong2,{
-		icon: L.icon({iconUrl:"/images/box.jpg"})
+		icon: L.icon({iconUrl:"images/box.jpg"})
 	}).addTo(map);
 	
 	L.marker(boxLatLong3,{
-		icon: L.icon({iconUrl:"/images/box.jpg"})
+		icon: L.icon({iconUrl:"images/box.jpg"})
 	}).addTo(map);
 };
 
